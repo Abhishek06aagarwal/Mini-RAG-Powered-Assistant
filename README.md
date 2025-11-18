@@ -78,7 +78,7 @@ Overlap: 40 tokens
 Reason for overlap:
 Preserves context between chunks and improves retrieval quality.
 
-2️⃣ Embedding & Vector Store
+2️) Embedding & Vector Store
 
 .. What We Do
 
@@ -123,7 +123,7 @@ Insert embedding into FAISS
 
 Save FAISS index + metadata locally
 
-3️⃣ Query Handling
+3️) Query Handling
 .. What We Do
 
 Accept user input from a Node.js frontend/CLI
@@ -165,7 +165,7 @@ Answer:
 
 LLM generates a grounded answer.
 
-4️⃣ Cloud Deployment
+4️) Cloud Deployment
 .. What We Do
 
 Deploy the backend & RAG logic to a cloud platform.
