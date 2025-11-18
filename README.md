@@ -1,6 +1,6 @@
 This project implements a Mini Retrieval-Augmented Generation (RAG) Assistant capable of answering questions based on a custom document corpus (PDFs, articles, or internal docs).
 Instead of relying only on the LLM’s internal knowledge, the assistant retrieves information from a vector database and combines it with the model’s reasoning. This ensures accurate, grounded, and context-aware answers.
-The project demonstrates understanding of:                  
+The project demonstrates understanding of:                   
 
 GenAI concepts
 Embedding and vector databases
