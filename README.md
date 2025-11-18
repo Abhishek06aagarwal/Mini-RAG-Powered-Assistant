@@ -10,23 +10,23 @@ RAG architecture
 
 
  Architecture
-                 ┌───────────────────────────┐
-                 │        User Query          │
-                 └──────────────┬────────────┘
+                 
+                       User Query         
+              
                                 ▼
                      (1) Convert Query to Embedding
                                 ▼
-                 ┌───────────────────────────┐
-                 │   Vector Store (FAISS)    │
-                 │  Similarity Search (Top-K)│
-                 └──────────────┬────────────┘
+                 
+                  Vector Store (FAISS)   
+                 Similarity Search (Top-K)
+               
                                 ▼
                      (2) Retrieve Relevant Chunks
                                 ▼
-                 ┌───────────────────────────┐
-                 │    LLM (RAG Generation)   │
-                 │  Query + Context → Answer │
-                 └──────────────┬────────────┘
+              
+                    LLM (RAG Generation)  
+                   Query + Context → Answer 
+                
                                 ▼
                            Final Output
 
@@ -190,7 +190,7 @@ Backend + FAISS index served via REST API
 
 Simple Node.js frontend deployed to the cloud
 
-🧪 Tech Stack
+.. Tech Stack
 Python (Backend & Processing)
 
 pdfplumber
