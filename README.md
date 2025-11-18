@@ -79,6 +79,7 @@ Reason for overlap:
 Preserves context between chunks and improves retrieval quality.
 
 2️⃣ Embedding & Vector Store
+
 .. What We Do
 
 Convert each chunk into a numeric vector using an embedding model.
